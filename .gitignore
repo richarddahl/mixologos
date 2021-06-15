@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.gitignore
+static_files/css/jquery/.DS_Store
+.gitignore
+.DS_Store
+media/media/OppidanStar_Logo_PTVIeVd.jpg
+media/media/OppidanStar_Logo_wO8mUVu.jpg
+media/media/OppidanStar_Logo.jpg
+static_files/images/Oppidan+Star_Logo.jpg

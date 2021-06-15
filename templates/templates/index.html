@@ -1,0 +1,26 @@
+{% extends "templates/base.html" %}
+{% load i18n %}
+{% block includes %}
+{% endblock %}
+{% block script %}
+{% endblock %}
+
+{% block content %}
+    <div id='main'>
+        <div id='sidebar' class='sidebar ui-widget'>
+            <H1>Drinks</H1>
+            {% for drink in drinks %}
+                <a href='/{{ drink.id }}/'>{{ drink }}</a><p />
+            {% endfor %}
+        </div>
+        <div id='detail' class='content ui-corner-top ui-widget ui-widget-default'>
+            {% if drink_detail %}
+                {% include 'templates/drink_detail.html' with drink_detail=drink_detail %}
+            {% else %}
+                <div class='center'>
+                    <img src="/static/images/Oppidan+Star_Logo.jpg" alt="mixologos"/>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+{% endblock %}

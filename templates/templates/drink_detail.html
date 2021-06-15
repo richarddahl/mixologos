@@ -1,0 +1,21 @@
+{% load i18n %}
+<h1>{{ drink_detail.name }}</H1>
+{% for base_spirit in drink_detail.base_spirits.all %}
+    <div class='ingredient-div'> {{ base_spirit }}
+{% endfor%}
+{% for sweetener in drink_detail.sweeteners.alitsl %}
+    <div class='ingredient-div'> {{ sweetener }}
+{% endfor%}
+{% for juice in drink_detail.juices.all %}
+    <div class='ingredient-div'> {{ juice }}
+{% endfor%}
+{% for other in drink_detail.other_ingredients.all %}
+    <div class='ingredient-div'> {{ other }}
+{% endfor%}
+{% for garnish in drink_detail.garnishes.all %}
+    <div class='ingredient-div'> {{ garnish }}
+{% endfor%}
+<div class='ingredient-div'> {{ drink_detail.glass }}
+{% for instruction in drink_detail.instructions.all %}
+    <div class='ingredient-div'> {{ instruction }}
+{% endfor%}

@@ -1,0 +1,1600 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+    font-size: 12pt;
+}
+
+b, strong {
+    font-weight: bold;
+}
+/*
+.fa,
+*/
+.fad {
+    cursor: pointer;
+}
+
+.fas, .fal, .far, .network-diagram, .vis-network {
+    font-family: "Font Awesome 5 Pro"!important;
+}
+
+.no-border {
+    border: none;
+}
+#header .fad {
+    font-size: 1.2em;
+}
+
+.submit-button {
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+.permission-denied, .object-not-ready {
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-bottom: 2em;
+}
+
+.section-header {
+    display: block;
+    position: relative;
+    margin: .25em 0 0 0;
+    padding: .5em;
+    font-size: 1.0em;
+    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", Verdana, Arial, sans-serif;
+}
+
+.permission-denied strong, .object-not-ready strong {
+    font-size: 1.0em;
+    font-weight: bold;
+}
+
+.permission-denied .message, .object-not-ready .message {
+    font-size: 1em;
+}
+
+h4.not-clickable {
+    cursor: default;
+}
+
+.import_form_field {
+    width: 10em;
+}
+
+.diagram-holder {
+    padding: .5em;
+}
+
+.lighter {
+    font-weight: lighter;
+}
+
+.middle {
+    vertical-align: middle;
+}
+
+.lower {
+    text-transform: lowercase;
+}
+
+.ui-icon {
+    margin: 0em;
+}
+
+.w-5 {
+    width: 5%;
+}
+
+.w-10 {
+    width: 10%;
+}
+
+.w-15 {
+    width: 15%;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-33 {
+    width: 33%;
+}
+
+.w-34 {
+    width: 34%;
+}
+
+.w-35 {
+    width: 35%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-45 {
+    width: 45%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-55 {
+    width: 55%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.pad-small {
+    padding: .25em;
+}
+
+.pad {
+    padding: .5em;
+}
+
+dd .ui-icon {
+    margin-top: -.35em;
+}
+
+td.pre {
+    white-space: pre;
+}
+
+.table-heading {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.table-row {
+    padding-left: 1em;
+}
+
+.table-row-element {
+    font-size: 1.0em;
+}
+
+.queue_log_holder {
+    height: 45em;
+    overflow: auto;
+}
+
+.log-line {
+    padding-top: .25em;
+    padding-bottom: .25em;
+    padding-left: .25em;
+}
+
+.table-row-element-label-span {
+    font-variant: small-caps;
+    font-weight: bold;
+    text-align: right;
+    margin-top: .5em;
+}
+
+.table-row-element-value-span {
+    margin-right: 1em;
+    text-align: left;
+    margin-top: .5em;
+}
+.table-row-element-label {
+    float: left;
+    font-variant: small-caps;
+    font-weight: bold;
+    text-align: right;
+    margin-top: .5em;
+}
+
+.table-row-element-value {
+    float: left;
+    text-align: left;
+    margin-left: 1em;
+    margin-top: .5em;
+}
+
+.two-thirds {
+    width: 66%;
+    float: left;
+    margin-right: 1%;
+}
+
+.one-third {
+    width: 33%;
+    float: right;
+}
+
+.dialog-extra-elements {
+    margin-top: .5em;
+    margin-bottom: .5em;
+    padding: .25em;
+}
+
+.dialog-extra-element {
+    padding-right: 1em;
+}
+
+.form-title {
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 1.1em;
+    font-weight: bolder;
+    width: 100%;
+    background: none !important;
+    border: none !important;
+}
+
+.invisible {
+    display: none;
+}
+
+.dt-buttons {
+    margin-right: .2em;
+}
+
+label.ui-checkboxradio-label {
+    border-radius: .2em;
+    font-variant: small-caps;
+    margin-right: .25em;
+    margin-bottom: .25em;
+    margin-left: .25em;
+    font-size: 1em;
+}
+
+td .ui-button, td .button {
+    margin-left: 0em !important;
+    margin-right: 0em!important;
+}
+
+.ui-button, .fg-button {
+    background-color: inherit!important;
+    border: none!important;
+    padding: .2em !important;
+}
+
+button.dt-button {
+    width: 1.75em;
+    margin-right: .25em !important;
+}
+
+.ui-widget.ui-widget-content {
+    border: none;
+}
+
+.header-left {
+    float: left;
+    width: 20%;
+}
+
+.header-center {
+    float: left;
+    width: 80%
+}
+
+.header-right {
+    float: left;
+    width: 20%;
+}
+
+li > .fa {
+    margin: 0.4em 0.2em 0 0;
+}
+
+canvas.jSignature {
+    cursor: default;
+}
+
+.slight-left-margin {
+    margin-left: .13em;
+}
+
+/*
+ *  jQuery-ui overrides
+ */
+
+td .man-emphasize {
+    font-size: 1em;
+    text-align: center;
+    font-weight: normal;
+}
+
+td .man-section {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.DataTables_sort_wrapper {
+    font-weight: bold;
+}
+
+div.dataTables_processing {
+    z-index: 1;
+}
+
+.processing {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 40px;
+    margin-left: -50%;
+    margin-top: -25px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+thead {
+    font-variant: small-caps;
+}
+
+.ui-widget-header {
+    font-variant: small-caps;
+}
+
+.ui-widget-header > .right {
+    margin-right: .3em;
+}
+
+.ui-widget-header > .left {
+    margin-left: .3em;
+}
+
+h4 {
+    margin-bottom: .1em;
+}
+
+.dialog-highlight {
+    padding: 1em;
+}
+
+.message-list {
+    margin-left: .5em;
+    margin-bottom: .5em;
+}
+
+strong {
+    padding-left: .5em;
+    padding-bottom: .5em;
+    padding-right: .3em;
+}
+
+.ui-accordion-header {
+    font-variant: small-caps;
+}
+
+.ui-tabs-anchor {
+    font-variant: small-caps;
+}
+
+.table-name {
+    font-variant: small-caps;
+}
+
+.dataTables_searchText {
+    width: 25em;
+}
+
+.fg-toolbar {
+    font-variant: small-caps;
+}
+
+.dataTables_wrapper.no-footer .dataTables_scrollBody {
+    border-bottom: none;
+}
+
+.ui-accordion .ui-accordion-content {
+    padding: 1em 1em;
+    padding-top: 0em;
+    border-top: none;
+    overflow: hidden;
+}
+
+.select-all {
+    float: right;
+    padding: .5em;
+}
+
+.export-holder {
+    min-width: 85em;
+}
+
+.detail-holder {
+    padding-left: 2%;
+    padding-right: 2%;
+    height: 40em;
+    overflow: scroll;
+}
+
+.detail-holder div {
+    margin-bottom: .75em;
+}
+
+.status-line {
+    margin-bottom: 6px;
+}
+
+.man-url {
+    margin-top: 1em;
+    margin-right: 1em;
+}
+
+.man-list-item {
+    margin-left: 2em;
+}
+
+.superscript {
+    font-size: .8em;
+    vertical-align: super;
+}
+
+.ui-widget-content a.icon-only, span.icon-only {
+    font-size: 14px;
+}
+
+h3.cmplid-state-selected {
+    font-style: italic;
+    font-weight: bold !important;
+}
+
+h3.cmplid-state-selected:hover {
+    font-weight: bold;
+}
+
+#main {
+    padding: .25em;
+}
+
+#navViewer, .man-menu {
+    margin-bottom: .5em;
+}
+
+.vis-tooltip {
+    overflow-wrap: break-word;
+    overflow: hidden;
+    max-width: 50em;
+    max-height: 10em;
+    white-space: normal;
+}
+
+div.vis-configuration.vis-config-header {
+    font-size: 1.1em;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.vis-config-item {
+    font-variant: small-caps;
+}
+
+.vis-config-label {
+    margin-right: 1em;
+}
+
+.nav-menu-item:hover, .man-menu-item:hover, .faux-menu-item:hover {
+    font-weight: bold;
+}
+
+.nav-menu-item, .man-menu-item, .faux-menu-item {
+    width: 94%;
+    font-variant: small-caps;
+    text-decoration: none;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+#nodedetail {
+    overflow-y: auto;
+}
+
+.node-detail-info {
+    max-height: 15em;
+    overflow-y: auto;
+}
+
+.network-diagram {
+    width: 100%;
+    height: 100%;
+}
+
+.diagram-content {
+    margin-left: 1%;
+    float: left;
+    width: 80%;
+    height: 100em;
+}
+
+.diagram-sidebar {
+    width: 17%;
+    float: left;
+}
+.full-content {
+    margin: 1%;
+}
+
+.full-content-table-title {
+    padding: 1em;
+}
+
+.content {
+    margin-left: 1%;
+    margin-bottom: 1%;
+    width: 80%;
+    float: left;
+}
+
+.sidebar {
+    width: 19%;
+    float: left;
+}
+
+.container {
+    margin-top: .5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 96%;
+}
+
+.span-24 {
+    width: 100%;
+}
+
+.dialog-full-height {
+    height: 100%;
+}
+
+#viewer {
+    min-width: 16em;
+}
+
+.tab-scroll-div {
+    overflow: auto;
+}
+
+.center {
+    /* Used in for header */
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#home-tab {
+    /*height: 600em;*/
+    overflow: visible;
+}
+
+.hidden {
+    display: none;
+}
+
+.faux-accordion-header {
+    display: block;
+    padding: .5em 0em .5em .5em;
+    width: 100%;
+}
+
+.faux-accordion > h3 {
+    display: block;
+    padding: .5em 0em .5em .5em;
+}
+
+.clear {
+    clear: both;
+}
+
+.result-container {
+    height: 70px;
+    overflow: auto;
+}
+
+.attribute-panel {
+    height: 400px;
+    overflow: auto;
+    margin-top: 1em;
+}
+
+tr.pre-line td {
+    white-space: pre-line;
+}
+
+.pre-line {
+    white-space: pre-line;
+}
+
+.indent {
+    margin-left: 1em;
+}
+
+.indent-1 {
+    margin-left: 1em;
+}
+
+.indent-2 {
+    margin-left: 2em;
+}
+
+.indent-3 {
+    margin-left: 3em;
+}
+
+.indent-4 {
+    margin-left: 4em;
+}
+
+.indent-5 {
+    margin-left: 5em;
+}
+
+.indent-23 {
+    margin-left: 23em;
+}
+
+.bottom-border {
+    border-bottom: none;
+}
+
+.dashboard-row {
+    padding-top: .5em;
+}
+
+.log-viewer {
+    min-height: 30em;
+}
+
+.log-arrow {
+    margin-top: auto;
+    margin-bottom: auto;
+    min-height: 30em;
+}
+
+.log-holder {
+    min-height: 30em;
+    width: 100%;
+}
+
+.log-entry {
+    overflow: auto;
+}
+
+.log-detail {
+    width: 32%;
+    margin-right: .5em;
+}
+
+.dashboard-content-heading {
+    font-weight: bold;
+    font-variant: small-caps;
+    margin-top: 1em;
+    font-size: 1.1em;
+}
+
+.dashboard-content-emphasize {
+    font-style: italic; 
+    margin-top: .5em;
+    font-size: 1em;
+}
+
+.bottom {
+    position: absolute;
+    bottom: .5em;
+    width: 97%;
+}
+
+.dashboard-content-text {
+    margin-top: .5em
+}
+
+.dashboard-list-item {
+    padding: 1em;
+}
+
+.dashboard-widget-icon {
+    text-align: center;
+}
+
+.cmplid-widget-header {
+    width: 100%;
+    display: inline-block;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    font-size: 1.5em;
+    font-variant: small-caps;
+}
+
+.dashboard-widget-holder {
+    display: inline-block;
+    margin-left: 1%;
+    margin-top: 1%;
+    border: solid 1px #2779AA;
+}
+
+.full-width {
+    position: relative;
+    width: 100%; /* desired width */
+    height: 30.27em;
+}
+
+.full-width:before {
+    content: "";
+    display: block;
+    padding-top: 100%; /* initial ratio of 1:1*/
+}
+.single-wide {
+    position: relative;
+    font-size: .9em;
+    width: 23%; /* desired width */
+    height: 30.27em;
+}
+
+.single-wide:before {
+    content: "";
+    display: block;
+    padding-top: 100%; /* initial ratio of 1:1*/
+}
+
+.double-wide {
+    float: left;
+    position: relative;
+    width: 47.5%; /* desired width */
+    height: 56em;
+}
+
+.double-wide:before {
+    content: "";
+    display: block;
+    padding-top: 50%;
+}
+
+.dashboard-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+.dashboard-widget-header {
+    padding: .5em;
+    margin-top: .5em;
+    font-weight: bold !important;
+    font-size: 1.4em;
+}
+
+.dashboard-widget-content {
+    width: 100%;
+    overflow: auto;
+}
+
+.content-heading {
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.dashboard-content-header {
+    padding-bottom: .2em;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.dashboard-content-holder > div.fa {
+    padding: .5em;
+}
+
+.dashboard-content-holder {
+    margin-bottom: 1em;
+    margin-top: .25em;
+    min-height: 2em;
+    padding: .5em;
+    overflow: auto;
+    height: 90%;
+}
+
+.dashboard-table-holder {
+    margin-bottom: 1em;
+    margin-top: .25em;
+    height: 20em;
+}
+
+.dashboard-content-fourth {
+    width: 25%;
+}
+
+.notification-widget {
+    margin-right: 1%;
+    margin-bottom: 1em;
+}
+
+.notification-widget-header {
+    padding: 0.5em 1em;
+}
+
+.notification-widget-content {
+    padding: 1em;
+    height: 145px;
+    overflow: auto;
+}
+
+.notification-content-header {
+    padding-bottom: .2em;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.notification-content-holder {
+    margin-bottom: 1em;
+}
+
+.notification-content-holder dt {
+    width: 35%;
+    text-align: right;
+    float: left;
+    padding-right: 1em;
+    font-weight: bold;
+}
+
+.notification-content-holder dd {
+    float: left;
+    text-align: left;
+    width: 45%;
+    -webkit-margin-start: 1em;
+}
+
+/* ATTRIBUTES
+ *
+ */
+.margin-bottom-small {
+    margin-bottom: .5em;
+}
+
+.margin-bottom-large {
+    margin-bottom: 2em;
+}
+
+.multi-line {
+    margin-bottom: 5px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+thead tr td {
+    font-variant: small-caps;
+}
+
+thead tr th {
+    padding: 10px 18px;
+}
+
+.scrollable {
+    height: 489px;
+    overflow-y: auto;
+}
+
+.center-icon {
+    margin: auto;
+}
+
+.search-group {
+    float: right;
+}
+
+.tab-accordion-wrapper {
+    height: 100%;
+}
+
+.table-name {
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+table.dataTable thead th div.DataTables_sort_wrapper, div.theader {
+    text-align: left !important;
+}
+
+.left-th {
+    text-align: left !important;
+}
+
+.dataTables_scrollBody {
+    border: none;
+}
+
+table.dataTable td.indent {
+    padding-left: 3em;
+}
+
+/* TABS
+ * Sets the position of the close icon for tabs properly
+*/
+
+.ui-tabs-nav li a {
+    display: inline-block;
+    max-width: 15em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.ui-accordion-header {
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+li .ui-icon-close {
+    margin: 0.4em 0.2em 0 0;
+    cursor: pointer;
+}
+
+/*
+ * FORMS
+*/
+
+.margin-bottom {
+    margin-bottom: 1em;
+}
+
+td > .right {
+    margin-right: .5em;
+}
+
+td > .left {
+    margin-left: .5em;
+}
+
+.padding-all {
+    padding: 1em;
+}
+
+.padding-top-big {
+    padding-top: 1em;
+}
+
+.padding-bottom {
+    padding-bottom: .5em;
+}
+
+.padding-top-bottom {
+    padding-top: .5em;
+    padding-bottom: 2.5em;
+}
+
+.margin-top {
+    margin-top: .5em;
+}
+
+.icon-a {
+    text-decoration: none;
+}
+
+.icon {
+    margin: 0 4px;
+}
+
+.callout {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 1.1em;
+}
+
+tbody {
+    font-size: 1em;
+}
+
+.link:hover {
+    cursor: pointer;
+}
+
+.table-footer{
+    padding-left: .5em;
+    padding-right: .5em;
+    padding-top: 0em;
+    padding-bottom: 1em;
+    font-variant: small-caps;
+    font-weight: normal;
+}
+
+.fileListTable table {
+    width: 100%;
+}
+.table-header {
+    padding-left: .5em;
+    padding-right: .5em;
+    padding-top: .5em;
+    padding-bottom: 0em;
+    font-variant: small-caps;
+    font-weight: normal;
+}
+
+.table-header label {
+    font-variant: small-caps;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+dt label {
+    font-variant: small-caps;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+li label, dd label, .fg-toolbar label {
+    font-weight: normal;
+    font-variant: normal;
+    font-size: 1em;
+}
+
+label.dd {
+    max-width: 45em;
+    display: block;
+}
+
+td dt {
+    float: left;
+    width: 30%;
+    margin-bottom: .5em;
+}
+
+td dt label {
+    text-align: right;
+}
+
+td dd {
+    float: left;
+}
+
+.horizontal-buttons label {
+    margin-right: 1em;
+}
+.padded-td span {
+    margin-top: 1em;
+}
+
+td.center-td {
+    text-align: center;
+}
+
+.left-status-bar {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 1em;
+}
+
+.status-bar {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+.pad-left {
+    padding-left: 2.5em;
+}
+
+.smaller {
+    font-size: smaller;
+}
+
+.x-large {
+    font-size: x-large;
+}
+
+.bigger {
+    font-size: 1.2em;
+}
+
+.form-help {
+    margin-bottom: .5em;
+}
+
+.form-error {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-bottom: 2px;
+}
+
+.help-text {
+    font-size: .95em;
+    font-variant: small-caps;
+}
+
+.import-error {
+    font-size: .9em;
+}
+
+.error {
+    padding-top: .4em;
+    padding-bottom: .4em;
+    padding-left: .0em;
+    margin-bottom: .5em;
+}
+
+.dialog-error {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.hide {
+    display: none;
+}
+
+.form-additional-explanation {
+    margin-top: .2em;
+    padding: .2em;
+}
+
+.form-explanation {
+    padding: .2em;
+}
+
+.explanation {
+    padding-top: .2em;
+    padding-bottom: .2em;
+    margin-bottom: -.5em;
+}
+
+.help {
+    padding-top: .2em;
+    padding-bottom: .2em;
+    margin-top: -.5em;
+}
+
+.required-icon {
+    margin-left: .5em;
+    margin-right: .5em;
+    margin-top: 3px;
+}
+
+.big-margin-left {
+    margin-left: 10em;
+}
+
+.big-margin-right {
+    margin-right: 10em;
+}
+
+.margin-left {
+    margin-left: 1em;
+}
+
+.small-margin-right {
+    margin-right: .2em;
+}
+
+.margin-right {
+    margin-right: 2em;
+}
+
+.attribute-value-holder {
+    min-height: 2em;
+    max-height: 8em;
+    overflow: auto;
+}
+
+.attribute-value {
+    margin: .5em;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.tall-form-box {
+    height: 15em;
+    overflow: auto;
+    margin: 0;
+}
+
+.form-box {
+    min-height: 3em;
+    overflow: auto;
+    margin: 0;
+}
+
+li {
+    margin-bottom: .3em;
+    margin-left: .25em;
+    margin-top: .25em;
+}
+
+.ui-resizable-s {
+    bottom: -25em;
+}
+
+.import-header {
+    width: 15em;
+    margin: 0;
+    margin-right: .1em;
+}
+
+.filter-inputs {
+    max-height: 30em;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-top: 1em;
+}
+
+dd.font-awesome input, .font-awesome {
+    font-family: "Font Awesome\ 5 Pro";
+}
+
+td .font-awesome {
+    font-size: 1.5em;
+}
+
+dd.font-awesome input[type="text"] {
+    width: 1.2em;
+    padding: .1em;
+    font-size: 2em;
+    text-align: center;
+}
+
+input {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.vertical-buttons label{
+    display: block;
+    padding-bottom: -.25em;
+}
+
+div.horizontal-buttons {
+    padding-bottom: -.25em;
+}
+
+form.login-form input[type="text"],
+form.login-form input[type="password"] {
+    width: 15em;
+    margin: 0;
+    margin-right: .5em;
+    margin-bottom: 1em;
+}
+
+form.import-form input[type="text"],
+form.import-form input[type="url"],
+form.import-form input[type="number"],
+form.import-form input[type="password"],
+form.import-form input.text {
+    width: 15em;
+    margin: 0;
+    margin-right: .5em;
+    margin-bottom: 1em;
+}
+
+form.import-form select {
+    width: 15em;
+    margin-right: .5em;
+    margin-bottom: 1em;
+}
+
+form.import-form textarea {
+    height: 1em;
+    width: 15em;
+    margin-right: .5em;
+    margin-bottom: 1em;
+}
+
+form input[type="text"],
+form input[type="url"],
+form input[type="number"],
+form input[type="password"],
+form input.text {
+    width: 45em;
+    margin: 0;
+}
+
+form select {
+    width: 45em;
+}
+
+form textarea {
+    height: 6em;
+    width: 45em;
+}
+
+.chart-holder {
+    width: 48%;
+    float: left;
+    margin-right: .5%;
+}
+
+.inline::before{
+   content: "\200B";
+}
+
+.inline {
+    /* used for inline labels on forms */
+    width: 15%;
+    margin-right: 1em;
+    display: inline-block;
+    float: left;
+    text-align: right;
+}
+
+.auto-overflow {
+    overflow: auto;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.log-label{
+    /* used for inline labels on forms */
+    width: 15%;
+    margin-right: 1em;
+    display: inline-block;
+    text-align: right;
+}
+
+.label {
+    font-weight: bold;
+    font-variant: small-caps;
+    text-align: right;
+}
+
+.half {
+    float: left;
+    width: 49%;
+    margin-right: .5%;
+    margin-left: .5%
+}
+
+.thirds {
+    float: left;
+    width: 32%;
+    margin-right: .5%;
+    margin-left: .5%
+}
+
+form.split dl dt {
+    float: left;
+    text-align: right;
+    width: 35%;
+    margin-top: .5em;
+}
+
+form dl dt {
+    float: left;
+    text-align: right;
+    width: 25%;
+    margin-top: .5em;
+}
+
+dl.display {
+    margin-bottom: 1em;
+}
+
+dl.display dd {
+    float: left;
+}
+
+dl.display dt {
+    float: left;
+    text-align: right;
+    width: 25%;
+}
+
+form dl dd {
+    float: left;
+    margin-top: .5em;
+}
+
+
+form.baseline dl dt {
+    width: 25%;
+    margin-top: 0em;
+}
+
+/*
+form ul, ol {
+    float: left;
+}
+*/
+
+form ul.errorlist, ol.errorlist {
+    float: none;
+    padding-left: 5em;
+}
+
+form.import-form ul.errorlist, ol.errorlist {
+    float: none;
+    padding-left: 0;
+}
+
+form.baseline dl dd {
+    margin-top: 0em;
+}
+
+form dd p {
+    margin: 0 0 0.2em;
+}
+
+form dd div.form-box-holder {
+    width: auto !important;
+}
+
+form dd div {
+    width: 45em;
+}
+
+.dataTables_wrapper .dataTables_info {
+    padding-top: 1em;
+}
+
+.dataTables_wrapper .dataTables_paginate {
+    padding-top: 1em;
+}
+
+form .dataTables_info {
+    width: 45%;
+}
+
+.dataTables_info {
+}
+
+form .dataTables_paginate {
+    width: 45%;
+}
+
+.formTablePanel {
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.form-offset {
+    margin-left: 20%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table tr th {
+    font-variant: all-small-caps;
+    font-size: 1.1em;
+    padding-left: .5em !important;
+}
+
+table tr td {
+    padding-left: .5em !important;
+}
+
+input.pageFilter {
+   width: 40em;
+}
+
+table.dataTable tbody tr.parent {
+    font-weight: bold;
+}
+
+table.dataTable thead th, table.dataTable thead td {
+    padding-top: .5em;
+    padding-bottom: .3em;
+    border: none!important;
+}
+
+tr.child td {
+    font-style: oblique;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.halfs {
+    width: 49%;
+}
+
+.thirds {
+    width: 32%;
+}
+
+.two-thirds {
+    width: 65%;
+}
+
+/*
+    DJANGO Admin styles
+*/
+
+/* LINKS */
+a:link, a:visited {
+    text-decoration: none;
+}
+
+a:focus {
+    text-decoration: underline;
+}
+
+a img {
+    border: none;
+}
+
+/* HEADER */
+
+#header, .man-page-header {
+    width: auto;
+    height: 40px;
+    padding: 1em;
+    line-height: 40px;
+    overflow: hidden;
+}
+
+img.info {
+    margin-top: -.5em;
+}
+
+#header a {
+    font-size: 1.3em;
+}
+
+#header a:focus, #header a:hover {
+    text-decoration: underline;
+}
+
+#branding {
+    float: left;
+}
+
+#branding h1 {
+    padding: 0;
+    margin: 0 20px 0 0;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+#branding h2 {
+    padding: 0 10px;
+    font-size: 14px;
+    margin: -8px 0 8px 0;
+    font-weight: normal;
+}
+
+.larger {
+    font-size: 1.2em;
+}
+
+.user-tools {
+    font-size: 10px;
+    text-align: right;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.user-tools a:focus, .user-tools a:hover {
+    text-decoration: none;
+}

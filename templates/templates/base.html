@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load i18n %}
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        {% include 'templates/head.html' %}
+        {% block includes %}
+        {% endblock %}
+        {% block script %}
+        {% endblock %}
+    </head>
+    <body>
+        {% block header %}
+        {% endblock %}
+        {% block content %}
+        {% endblock %}
+        {% block info %}
+        {% endblock %}
+        {% block footer %}
+        {% endblock %}
+    </body>
+</html>
