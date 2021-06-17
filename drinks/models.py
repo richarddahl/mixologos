@@ -9,6 +9,8 @@ class Drink(models.Model):
         max_length=300,
         verbose_name=_('Name'))
     picture = models.FileField(
+        blank=True,
+        null=True,
         upload_to='media/',
         max_length=300,
         verbose_name=_('Picture'))
@@ -202,6 +204,18 @@ class Measurement(models.Model):
     def __str__(self):
         return f'{self.name}'
 
+    def convert_measurement(self, unit):
+        """
+        """
+        if unit == 'Mililiter' and self.measurement_unit.name == 'Ounce':
+            return self.quantity * 29.57
+        if unit == 'Ounce' and self.measurement_unit.name == 'Mililiter':
+            return self.quantity / 29.57
+        if unit == 'Gallon' and self.measurement_unit.name == 'Ounce':
+            return self.quantity / 133.2275 
+        if unit == 'Ounce' and self.measurement_unit.name == 'Gallon':
+            return self.quantity * 133.2275 
+
 
 class MeasurementUnit(models.Model):
     name = models.CharField(
@@ -238,6 +252,8 @@ class Glass(models.Model):
         max_length=300,
         verbose_name=_('Name'))
     picture = models.FileField(
+        blank=True,
+        null=True,
         upload_to='media/',
         max_length=300,
         verbose_name=_('Picture'))
